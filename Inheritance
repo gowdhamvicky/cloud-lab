@@ -1,0 +1,24 @@
+class fruit 
+{
+	public void taste()
+	{
+		System.out.println("Fruits are sweet");
+	}
+}
+
+	class orange extends fruit
+	{
+		public void shape()
+		{
+			System.out.println("Orange is round");
+		}
+	}
+	public class Single
+	{
+		public static void main(String[] args) 
+		{
+			orange fr = new orange(); 
+			fr.taste(); 
+			fr.shape(); 
+		}
+	}
